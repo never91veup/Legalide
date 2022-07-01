@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Martel';
+  src: local('Martel DemiBold'), local('Martel-DemiBold'), url('../fonts/Marteldemibold.woff2') format('woff2'), url('../fonts/Marteldemibold.woff') format('woff'), url('../fonts/Marteldemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Martel';
+  src: local('Martel UltraLight'), local('Martel-UltraLight'), url('../fonts/Martelultralight.woff2') format('woff2'), url('../fonts/Martelultralight.woff') format('woff'), url('../fonts/Martelultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Martel';
+  src: local('Martel Light'), local('Martel-Light'), url('../fonts/Martellight.woff2') format('woff2'), url('../fonts/Martellight.woff') format('woff'), url('../fonts/Martellight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Martel';
+  src: local('Martel'), local('Martel-Regular'), url('../fonts/Martel.woff2') format('woff2'), url('../fonts/Martel.woff') format('woff'), url('../fonts/Martel.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Martel';
+  src: local('Martel Heavy'), local('Martel-Heavy'), url('../fonts/Martelheavy.woff2') format('woff2'), url('../fonts/Martelheavy.woff') format('woff'), url('../fonts/Martelheavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Martel';
+  src: local('Martel Bold'), local('Martel-Bold'), url('../fonts/Martelbold.woff2') format('woff2'), url('../fonts/Martelbold.woff') format('woff'), url('../fonts/Martelbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Martel';
+  src: local('Martel ExtraBold'), local('Martel-ExtraBold'), url('../fonts/Martelextrabold.woff2') format('woff2'), url('../fonts/Martelextrabold.woff') format('woff'), url('../fonts/Martelextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}  
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+} 
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+} 
+@font-face {
+  font-family: "Centry Gothic";
+  src: url("../fonts/CenturyGothic.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Общие стили */
+
+html {
+  box-sizing: border-box;
+}
+    
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+    
+body {
+  margin: 0;
+  font-family: "Martel", sans-serif;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  color: #737373;
+}
+    
+img {
+  max-width: 100%;
+}
+    
+a {
+  text-decoration: none;
+}
+    
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  display: block;
+}
+  
+section {
+  margin: 0;
+  padding: 0;
+}
+    
+.site-container {
+  overflow: hidden;
+}
+  
+.container {
+  max-width: 1443px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.btn-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+  
+/* Header */
+  
+.header {
+  height: 104px;
+}
+
+.header__container {
+  width: 1322px;
+}
